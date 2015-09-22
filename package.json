@@ -1,0 +1,34 @@
+{
+  "name": "nodelogger",
+  "version": "0.0.0",
+  "description": "Log Library for Node.js",
+  "main": "src/NodeLogger.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Korilakkuma/NodeLogger.git"
+  },
+  "keywords": [
+    "NodeLogger.js",
+    "NodeLogger",
+    "JavaScript",
+    "Node.js",
+    "Library"
+  ],
+  "author": "Korilakkuma <rilakkuma.san.xjapan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Korilakkuma/NodeLogger/issues"
+  },
+  "homepage": "https://github.com/Korilakkuma/NodeLogger",
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "nodemailer": "^1.4.0"
+  }
+}
